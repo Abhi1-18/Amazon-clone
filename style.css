@@ -1,0 +1,540 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+   
+}
+body{
+    background-color: #DEE1E6;
+}
+/*This div is the main block of the navbarwhere the other elements are placed*/
+.Navabar{
+    height:70px;
+    background-color: black;
+    display: flex;
+   
+}
+/*Elements of the navabar which are basically anchor tags*/
+a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    
+}
+/*The amazon logo in the left side of the navabar */
+#logo{
+    height:50px;
+    width:180px;
+    margin-left: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+   
+}
+/*The location section of the amazon */
+#location{
+    margin-right:inherit;
+    margin-top: 10px;
+    height:50px;
+    width:80px;
+   
+}
+/*The search bar where items can be searched*/
+#searchbar{
+    height:40px;
+    margin-left: 50px;
+    margin-right:inherit;
+    margin-top: 15px;
+    width:700px;
+    border-radius: 10px;
+    outline: none;
+
+}
+/* Sign in details section*/
+#signin{
+    margin-right:inherit;
+    margin-left: 15px;
+    margin-top: 10px;
+    height:50px;
+    width:150px;
+   
+}
+/* Order deatils of the amazon*/
+#order{
+    margin-right:inherit;
+    margin-left: 15px;
+    margin-top: 10px;
+    height:50px;
+    width:80px;
+}
+/* cart option */
+#cart{
+    margin-right:inherit;
+    margin-left: 15px;
+    margin-top: 10px;
+    height:50px;
+    width:80px;
+    font-size: x-larges;
+}
+/* 2nd div below nav bar*/
+.Amazon_more{
+    height:40px;
+    background-color: #37475A;
+    display:flex;
+    justify-content: flex-start;
+}
+/* today's deal option in below option*/
+#Todays-deal-section , #customer-service , #Registry ,#navabar-below-container-alloption , #Giftcards , 
+#Sell-option-in-navbarbelow{
+   height:30px;
+   align-items: center;
+   padding:8px 4px 8px 8px;
+   position: static;
+   width:100px;
+   
+}
+#navabar-below-container-alloption{
+    margin:0px 0px 0px 10px;
+    width:60px;
+    
+}
+#customer-service{
+    width:130px;
+}
+#Registry{
+    width:80px;
+}
+#Giftcards{
+    width:80px;
+}
+#Sell-option-in-navbarbelow{
+    width:60px;
+}
+#image-below-navabar{
+    width:1450px;
+    margin:0px 10px 0px 10px;
+}
+.Third-stage{
+    position: relative;
+    text-align: center;
+                                               
+}
+.text-above-image{
+    position:absolute;
+    top:40%;
+    margin: 0px 20px 0px 20px;
+    height:35px;
+    width:97%;
+    background-color: white;
+}
+aside{
+    margin:10px 0px 10px 0px;
+}
+#amazon-india,#seemore{
+    color:rgb(101, 101, 206);
+    text-decoration: none;
+}
+/*this section is going to be about the items */
+.container-for-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position:absolute;
+    top:50%;
+    margin:0px 10px 0px 15px;
+                                                                            
+    
+}
+.fashion{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position:absolute;
+    top:800px;
+    height:500px;
+    margin:0px 10px 0px 15px;
+                                                                          
+}
+
+.bottom-signin-section{
+    height:250px;
+    width: 91.9em;
+                                                  
+    
+   
+    position: absolute;
+    
+    top:1400px;
+    
+    margin:10px 0px 10px 0px;
+    background-color: white;
+}
+#bottom-signin-content{
+    height:130px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+                                                    
+}
+
+#bottom-go-to-top-bottom{
+    
+    display: block;
+    height: 30px;
+    padding: 10px;
+}
+.back-to-top{
+    height:50px;
+    width:91.9em;
+    position: absolute;
+    flex-wrap: wrap;
+    top:1660px;
+    background-color: #425265;
+
+}
+.lastsecond-bottom-footer{
+    height:1100px;
+    width:91.9em;
+    position: absolute;
+    flex-wrap: wrap;
+    top:1700px;
+                                      
+                                                    
+   
+
+}
+#content-last{                                                      /* This is the last footer-content*/
+    height:400px;
+    width:150px;
+    margin-top:40px;
+    
+    align-items: center;
+    display: inline-block;
+}
+.st-container-footer{
+    background-color: #232339;
+    height: 580px;
+                                                   
+}
+#Amazon-music,#amazonglobal,#im,#amazon-ads,#home-service,#kindle-direct,#erro-wifi,#pm6,#amazon-web,#prime-video,#Blink,
+#Abe,#audible,#shopbop,#ack,#box-oofice,#woot,#amazon-susb,#neighbour{                                              /* Element of last content*/
+    text-align: left;
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#amazonglobal,#im,#amazon-ads,#home-service,#kindle-direct,#erro-wifi,#pm6,#amazon-web,#prime-video,#Blink,#Abe,#audible,#shopbop,
+#ack,#box-oofice,#woot,#amazon-susb,#neighbour{                                                          /*here ele*/
+    margin-left:23px;
+}
+#inner-st-container-footer{
+    height:450px;
+    display: flex;
+    justify-content: center;
+                                                        border-bottom:1px solid #9B9B9B;
+    
+}
+.inner-2nd-container-footer{
+    display:flex;
+                                                       
+    justify-content: center;
+    height:128px;
+}
+.final-content-footer{
+    display: flex;
+    height:520px;
+    background-color:#131A22;
+    flex-wrap: wrap;
+    justify-content: center;
+                                                           
+}
+#amazon-bottom-logo,#Currency,#country,#language{
+    
+    height:80px;
+    width:180px;
+                                                        
+                                                        margin:30px 20px 10px 20px;
+}
+#Currency,#country,#language{
+    margin:0px;
+    margin-top:30px;
+}
+#currency-link,#language-link,#country-link{
+    height:20px;
+    width:150px;
+    padding:10px;
+    margin-top:20px;
+    border-radius:5px;
+    border:1px solid white;
+}
+#amazon-bottom-logo-image{
+    height:80px;
+    width:180px;
+    border-radius: 2px;
+}
+#get-to-know-us-container,#make-money-with-us-container,#let-us-help-you-container,#Amazon-payment-product-container{
+    display: inline-block;
+    width:280px;
+    height:380px;
+    align-items: center;
+    margin-top: 50px;
+                                                           
+}
+#inner-bottom-signin-content{
+    align-items: center;
+    margin-top: 50px;
+}
+#sign-in-bottom-button{
+    height:30px;
+    width:236px;
+    border-radius: 5px;
+    background-color:#fd850d;
+}
+#h3-footer{
+    color:white;
+    text-align: left;
+    margin: 20px 0px 10px 30px;
+}
+#st-content{
+    display: block;
+    text-align: left;
+    margin:5px 0px 10px 30px;
+    text-decoration: none;
+}
+#top-hr{
+    color:#9B9B9B;
+    margin-top:50px;
+}
+#bottom-hr{
+    color:#9B9B9B; 
+   margin-top: 30px;
+}
+
+
+
+h2{
+    margin:20px 0px 0px 20px;
+    text-align: left;
+}
+#container1,#container2,#container3,#container4,#fashion-shop,#lunarnewyear,#topdeal,#newsupply{
+    display:inline-block;
+    height:480px;
+    width:340px;
+    background-color: white;
+    
+    margin: 8px 10px 8px 10px;
+    text-align: left;
+   
+   
+}
+#inner-container-accessories{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin:15px;
+    
+
+
+}
+#jean-image ,#top-image,#dress-image,#shoe-image{
+    height:150px;
+    width:130px;
+}
+
+#head,#key,#mouse1,#chairs,#dinnn,#kitchhhh,#hommm,#healttt,#jean-image ,#top-image,#dress-image,#shoe-image{
+    height:110px;
+    width:110px;
+    margin:10px 10px 0px 10px;    
+}
+#headphone,#keys,#mou,#chairrr,#din,#kitch,#hom,#healt ,#jean-link,#top-link ,#dress-link,#shoe-link{
+    color:black;
+}
+#headset,#keyboard,#chair,#mouse,#kitchen,#health,#home,#dinning ,#jeans-container ,#tops-container,#dresses-container,
+#shoes-container{
+    
+    height:160px;
+    margin:10px;
+    width:130px;
+    display: inline-block;  
+}
+#seemore{
+    margin:5px 0px 10px 20px;
+}
+#pc{
+    height:350px;
+    width:320px;
+    
+   
+}
+#pc-image,#toys-image{
+    height:290px;
+    width:290px;
+    margin:25px;
+}
+#sign-in-link-bottom{
+    color:rgb(101, 101, 206);
+    text-decoration: none;
+}
+#seemore-no-underline,#newsupplt-link,#lunarnewyear-image-link,#topdeal-image-link ,#Fashion-link{
+    color:rgb(101, 101, 206);
+    padding:40px 0px 10px 20px;
+    text-decoration: none;
+}
+
+#newsupplt-link,#lunarnewyear-image-link , #topdeal-image-link ,#Fashion-link{
+    padding:20px 0px 10px 20px;
+    text-align: left;
+    text-decoration: none;
+}
+#dinnn,#kitchhhh,#hommm,#healttt{
+    width:130px;
+    height:130px;
+}
+#din,#kitch,#hom,#healt{
+    margin:0px 0px 0px 10px;
+    text-align: left;
+}
+#kitchen,#health,#home,#dinning{
+    height:175px;
+}
+
+#fashion-shop,#lunarnewyear,#topdeal,#newsupply{
+    height:480px;
+    
+}
+
+
+#newsupply-image-container,#lunarnewyear-image-container,#topdeal-image-container{
+  height:350px;
+  width:320px;
+  margin:10px;
+}
+#newsupply-image,#lunarnewyear-image,#topdeal-image{
+    height:320px;
+    width:300px;
+}
+#lunarnewyear-image,#newsupply-image{
+    margin-left:10px;
+}
+#topdeal-image{
+    height:280px;
+}
+
+#offer{
+    display:inline-block;
+    height: 20px;
+    width:110px;
+    padding:3px;
+    background-color: rgb(167, 18, 18);
+    border-radius: 2px;
+}
+#offer-rate-mini{
+    color:white;
+    
+}
+#Top-deal-mini-span{
+    color:rgb(120, 6, 6);
+    
+}
+#topdeal-mini-text{
+    color:black;
+    margin:5px;
+    display:block;
+}
+#Fashion-link{
+    padding:30px 20px 20px 20px;
+}
+
+
+/* hover , active , focus , animation,active visted ,etc properties */
+#location:hover , #location:active , #signin:hover , #signin:active , #logo:hover , #logo:active ,#order:hover , #order:active ,#cart:hover , #cart:active,
+#navabar-below-container-alloption:hover , #navabar-below-container:active , #Todays-deal-section:hover , #Todays-deal-section:active , 
+#customer-service:hover , #customer-service:active , #Registry:hover , #Registry:active ,#Giftcards:hover , #Giftcards:active ,
+#Sell-option-in-navbarbelow:hover , #Sell-option-in-navbarbelow:active{
+    border:1px solid white;
+    border-radius:2px;
+    transition-delay: 10ms;
+}
+#searchbar:focus , #all-button-input:focus , #magnifying:focus{
+    border: 3px solid #FF9900;
+}
+#seemore:hover , #topdeal-image-link:hover ,#Fashion-link:hover{
+    text-decoration: underline;
+    color:rgb(162, 39, 39);
+}
+#seemore-no-underline:hover , #newsupplt-link:hover , #lunarnewyear-image-link:hover , #sign-in-link-bottom:hover{
+    color:rgb(162, 39, 39);
+    text-decoration: none;
+}
+#bottom-go-to-top-bottom:hover{
+    background-color: #8197a4;
+}
+#st-content:hover{
+    text-decoration: 1px white underline;
+}
+#Amazon-music:hover,#amazonglobal:hover,#im:hover,#amazon-ads:hover,#home-service:hover,#kindle-direct:hover,#erro-wifi:hover,#pm6:hover,#amazon-web:hover,#prime-video:hover,#Blink:hover,
+#Abe:hover,#audible:hover,#shopbop:hover,#ack:hover,#box-oofice:hover,#woot:hover,#amazon-susb:hover ,#neighbour:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+/*input search bar css */
+#wrapper{
+    position: relative;
+    display: inline-block;
+}
+#searchbar{
+    height:40px;
+    margin-left: 50px;
+    margin-right:inherit;
+    margin-top: 15px;
+    width:700px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 150px;
+
+}
+#magnifying{
+    height:39px;
+    width:40px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+    background-color:  #FEBD69;
+   
+    position: absolute;
+    right:0%;
+    
+    bottom:21%;
+}
+#all-button-input{
+    height:39px;
+    width:130px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+    background-color: #9B9B9B;
+    
+    position: absolute;
+    right: 76%;
+    bottom:21%;
+
+}
+option{
+    background-color: white;
+}
+
+.copright{
+    height:50px;
+    width:800px;
+   
+}
+#copright-link{
+    color:white;
+    text-decoration: none;
+    margin:5px 10px 5px 10px;
+    font-size: 15px;
+}
+#copright-link:hover{
+    text-decoration: underline;
+}
